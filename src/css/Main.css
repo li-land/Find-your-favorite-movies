@@ -1,0 +1,108 @@
+.page {
+	flex: 1 1 auto;
+	padding: 50px 30px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page__search {
+	margin-bottom: 50px;
+}
+.search__wrapp {
+	height: 40px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.search__field {
+	width: 100%;
+	padding: 0 20px;
+	border: 0.5px solid rgb(231, 231, 231);
+	border-radius: 3px;
+	font-size: 16px;
+}
+.search__btn {
+	margin-left: 20px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 200;
+	letter-spacing: 1.5px;
+	color: #fff;
+	background-color: rgb(55, 152, 231);
+	padding: 0 30px;
+	border-radius: 3px;
+}
+.search__btn:hover {
+	background-color: rgb(87, 178, 252);
+}
+.search__btn:active {
+	background-color: rgb(70, 148, 212);
+}
+.search__radio-box {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.search__radio-item:nth-child(n):not(:last-child) {
+	margin-right: 30px;
+}
+
+.page__movies {
+	margin: 0 -10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.page__movies h2 {
+	font-size: 20px;
+}
+
+.page__card {
+	margin-bottom: 20px;
+}
+.card {
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 33.33333%;
+	min-width: 250px;
+}
+.card__item {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+	-webkit-box-shadow: 2px 4px 23px -8px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 2px 4px 23px -8px rgba(34, 60, 80, 0.2);
+	box-shadow: 2px 4px 23px -8px rgba(34, 60, 80, 0.2);
+}
+.card__image {
+	min-width: 100%;
+}
+.card__image img {
+	width: 100%;
+}
+.card__description {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+.card__title {
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 500;
+}
+.card__year {
+	font-size: 12px;
+}
+
+.card__plot {
+	padding: 14px 0;
+	font-size: 16px;
+	line-height: 20px;
+	flex: 1 0 auto;
+}
+.card__type {
+	display: flex;
+	justify-content: flex-end;
+	font-style: italic;
+}

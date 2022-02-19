@@ -1,0 +1,48 @@
+.header {
+  padding: 20px 20px;
+  border: 0.5px solid rgb(227, 230, 241);
+  box-shadow: 2px 4px 23px -8px rgba(34, 60, 80, 0.1);
+}
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-logoBox {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  padding-bottom: 8px;
+}
+.header__logo img {
+  max-width: 30px;
+}
+.header__title {
+  font-size: 26px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.header__title span {
+  color: rgb(12, 104, 180);
+}
+.header__link {
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.header__link a {
+  color: rgb(9, 134, 236);
+  -webkit-text-decoration: underline 0.5px;
+  text-decoration: underline 0.5px;
+}
+.header__link a:hover {
+  text-decoration: none;
+}
+.header__link a:active {
+  color: rgb(84, 5, 231);
+}

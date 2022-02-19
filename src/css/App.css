@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("./Header.css");
+@import url("./Main.css");
+@import url("./Footer.css");
+@import url("./media.css");
+@import url("./Preloader.css");
+
+body {
+	font-family: "Oswald", sans-serif;
+	color: rgb(26, 42, 42);
+}
+
+.wrapper {
+	min-height: 100vh;
+	min-width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
