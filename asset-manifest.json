@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/https//Li-Landweb.github.io/Find-your-favorite-movies-react/static/css/main.de6dea83.css",
-    "main.js": "/https//Li-Landweb.github.io/Find-your-favorite-movies-react/static/js/main.cdd92e63.js",
+    "main.js": "/https//Li-Landweb.github.io/Find-your-favorite-movies-react/static/js/main.2924e791.js",
     "static/media/film-slate.png": "/https//Li-Landweb.github.io/Find-your-favorite-movies-react/static/media/film-slate.57e8440b04b8b231e363.png",
     "index.html": "/https//Li-Landweb.github.io/Find-your-favorite-movies-react/index.html",
     "main.de6dea83.css.map": "/https//Li-Landweb.github.io/Find-your-favorite-movies-react/static/css/main.de6dea83.css.map",
-    "main.cdd92e63.js.map": "/https//Li-Landweb.github.io/Find-your-favorite-movies-react/static/js/main.cdd92e63.js.map"
+    "main.2924e791.js.map": "/https//Li-Landweb.github.io/Find-your-favorite-movies-react/static/js/main.2924e791.js.map"
   },
   "entrypoints": [
     "static/css/main.de6dea83.css",
-    "static/js/main.cdd92e63.js"
+    "static/js/main.2924e791.js"
   ]
 }
