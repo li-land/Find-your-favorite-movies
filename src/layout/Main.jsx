@@ -16,11 +16,11 @@ class Main extends React.Component {
 
   componentDidMount() {
     let arr = [];
-    fetch(`http://www.omdbapi.com/?s=spider man&apikey=${API_KEY}`)
+    fetch(`https://www.omdbapi.com/?s=spider man&apikey=${API_KEY}`)
       .then((response) => response.json())
       .then((data) => {
         data.Search.forEach((data) => {
-          fetch(`http://www.omdbapi.com/?i=${data.imdbID}&apikey=${API_KEY}`)
+          fetch(`https://www.omdbapi.com/?i=${data.imdbID}&apikey=${API_KEY}`)
             .then((response) => response.json())
             .then((info) => {
               arr.push({
@@ -42,7 +42,7 @@ class Main extends React.Component {
     let arr = [];
     const searchMovie = search.toLowerCase();
     fetch(
-      `http://www.omdbapi.com/?s=${searchMovie}&type=${type}&apikey=${API_KEY}`
+      `https://www.omdbapi.com/?s=${searchMovie}&type=${type}&apikey=${API_KEY}`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -50,7 +50,7 @@ class Main extends React.Component {
           this.setState({ movies: arr, loading: false });
         } else {
           data.Search.forEach((data) => {
-            fetch(`http://www.omdbapi.com/?i=${data.imdbID}&apikey=${API_KEY}`)
+            fetch(`https://www.omdbapi.com/?i=${data.imdbID}&apikey=${API_KEY}`)
               .then((response) => response.json())
               .then((info) => {
                 arr.push({
