@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Find-your-favorite-movies-react/static/css/main.de6dea83.css",
-    "main.js": "/Find-your-favorite-movies-react/static/js/main.1186c3aa.js",
-    "static/media/film-slate.png": "/Find-your-favorite-movies-react/static/media/film-slate.57e8440b04b8b231e363.png",
-    "index.html": "/Find-your-favorite-movies-react/index.html",
-    "main.de6dea83.css.map": "/Find-your-favorite-movies-react/static/css/main.de6dea83.css.map",
-    "main.1186c3aa.js.map": "/Find-your-favorite-movies-react/static/js/main.1186c3aa.js.map"
+    "main.css": "/Find-your-favorite-movies/static/css/main.de6dea83.css",
+    "main.js": "/Find-your-favorite-movies/static/js/main.ea034c25.js",
+    "static/media/film-slate.png": "/Find-your-favorite-movies/static/media/film-slate.57e8440b04b8b231e363.png",
+    "index.html": "/Find-your-favorite-movies/index.html",
+    "main.de6dea83.css.map": "/Find-your-favorite-movies/static/css/main.de6dea83.css.map",
+    "main.ea034c25.js.map": "/Find-your-favorite-movies/static/js/main.ea034c25.js.map"
   },
   "entrypoints": [
     "static/css/main.de6dea83.css",
-    "static/js/main.1186c3aa.js"
+    "static/js/main.ea034c25.js"
   ]
 }
